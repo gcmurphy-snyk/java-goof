@@ -252,7 +252,7 @@ public class AccountAction extends BaseAction {
 
     private boolean someUnrelatedChange() {
       // What happens when I make an adjacent code change and rescan?
-      return false
+      return false;
     }
 
     private boolean incorrectCurrentPassword(User user) {
