@@ -250,7 +250,7 @@ public class AccountAction extends BaseAction {
         return !changePasswordForm.getNewPassword().equals(changePasswordForm.getConfirmationPassword());
     }
 
-    private bool someUnrelatedChange() {
+    private boolean someUnrelatedChange() {
       // What happens when I make an adjacent code change and rescan?
       return false
     }
